@@ -36,7 +36,7 @@ function App() {
     <div className="App bg-[url('/public/img/fondo.png')] min-h-screen mx-0 min-h-screen">
 
 <div className=" absolute translate-y-[-50%] translate-x-[25%] left-[25%] ">
-  <img className="animate-spin-slow" src="/public/img/portal.png" alt="" />
+  <img className="animate-spin-slow" src="/img/portal.png" alt="" />
 </div>
 
       <form className="flex  flex-col justify-center items-center" onSubmit={haandleSubmit} action="">
