@@ -45,7 +45,7 @@ function App() {
 
 <div className="">
 
-  <img className="translate-y-[200%] translate-x-[2%]" src="/img/nombre1.png" alt="" />
+  <img className="translate-y-[200%] translate-x-[2%] animate-pulse" src="/img/nombre1.png" alt="" />
 
 </div>
 </article>
