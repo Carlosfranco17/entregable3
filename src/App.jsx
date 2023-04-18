@@ -35,14 +35,26 @@ function App() {
     
     <div className="App bg-[url('/public/img/fondo.png')] min-h-screen mx-0 min-h-screen">
 
-<div className=" absolute translate-y-[-50%] translate-x-[25%] left-[25%] ">
-  <img className="animate-spin-slow" src="/img/portal.png" alt="" />
+
+<article className=" flex justify-center ">
+
+<div className=" absolute translate-y-[-50%]  flex justify-center">
+
+  <img className="animate-spin-slow w-[700px] " src="/img/portal.png" alt="" />
 </div>
+
+<div className="">
+
+  <img className="translate-y-[200%] translate-x-[2%]" src="/img/nombre1.png" alt="" />
+
+</div>
+</article>
+
 
       <form className="flex  flex-col justify-center items-center" onSubmit={haandleSubmit} action="">
 
 
-        <div className="bg-white mt-[300px] border-2 border-orange-400 rounded-full w-80% h-[45px] sm:w-[600px] flex"> 
+        <div className="bg-white mt-[300px] border-2 border-orange-400 rounded-full w-80% h-[45px] sm:w-[600px] flex mt-[420px]"> 
           <input
           id="locationId"
           placeholder="Type a location id ..."
